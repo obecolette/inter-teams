@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1366px) {
+	header {
+		width: percentage(303/1366);
+		height: 0;
+		padding-bottom: percentage(316/1366);
+
+	}
+	
+	.group-1, .razors, .group-2{height: 0;}
+	.group-1{
+		width: percentage(1064/1366);
+		padding-bottom: percentage(316/1366);
+		.razor-A {
+			float: left;
+			width: percentage(301/1063);
+			padding-bottom: percentage(769/1063);
+			img {    width: 177%;}
+		}
+		.razor-B, .razor-C {padding-bottom: percentage(316/1063);}
+		.razor-B {
+			width: percentage(305/1063);
+		}
+		.razor-C {
+			width: percentage(456/1063);
+		}
+	}
+	
+	.by-line_med {
+		width: percentage(1063/1366);
+		height: 0;
+		padding-bottom: percentage(187/1366);
+		float: right;
+		
+
+	}
+	.group-2 {
+		float: left;
+		width: percentage(1064/1366);
+		padding-bottom: percentage(285/1366);
+		.razor-D {
+			width: percentage(458/1063);
+		}
+		.razor-E {
+			width: percentage(301/1063);
+		}
+		.razor-F {
+			width: percentage(304/1063);
+		}
+	}
+	.razor-D, .razor-E, .razor-F {padding-bottom: percentage(265/1063);}
+
+
+
+
+
+
+
+
+
+}
