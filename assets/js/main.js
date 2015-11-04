@@ -13,6 +13,11 @@ $(".icon-dots").click(function() {
 
 });
 
+	$('.content').click(function(){
+		$(this).toggleClass('expand');
+
+	});
+
 
 	// $(".").hide();
 	console.log("hide");
