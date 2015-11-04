@@ -1,16 +1,16 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 
-  console.log("loading script");
+//   console.log("loading script");
 
-	$('.content').click(function(){
-		$(this).toggleClass('expand');
+// 	$('.content').click(function(){
+// 		$(this).toggleClass('expand');
 
-	});
+// 	});
 
-	$('.mobile-navigation-menu').click(function(){
-		$('.mobile-menu').toggleClass('expand');
+// 	$('.mobile-navigation-menu').click(function(){
+// 		$('.mobile-menu').toggleClass('expand');
 
-	});
+// 	});
 
-});
+// });
 

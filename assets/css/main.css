@@ -392,83 +392,7 @@ li {
       border: 5px solid #727376;
       color: #727376; }
 
-.page-grooming-tip * {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-.page-grooming-tip .clearfix:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.page-grooming-tip html, .page-grooming-tip body {
-  width: 100%;
-  font-family: 'Lato', sans-serif; }
-
-.page-grooming-tip ul {
-  list-style: none; }
-
-.page-grooming-tip header ul {
-  float: left;
-  margin: 49px 0px;
-  width: auto;
-  display: none; }
-
-.page-grooming-tip header li {
-  /*float:left;*/
-  display: inline;
-  padding: 20px 30px;
-  color: #ff7406;
-  font-size: 20px; }
-
-.page-grooming-tip header {
-  position: relative;
-  width: 100%;
-  height: 75px;
-  z-index: 1000;
-  background-color: black; }
-
-.page-grooming-tip .page-wrap {
-  width: 90%;
-  margin: 0 5%; }
-
-.page-grooming-tip .schick-logo {
-  display: block;
-  width: 41.4545%;
-  height: 60px;
-  float: left;
-  margin-top: 10px; }
-
-.page-grooming-tip .mobile-navigation-menu {
-  float: right;
-  margin-top: 15px; }
-
-.page-grooming-tip .mobile-menu-line {
-  width: 37px;
-  height: 3px;
-  border-radius: 1px;
-  background-color: white;
-  margin: 8px auto; }
-
-.page-grooming-tip .mobile-menu {
-  position: absolute;
-  background-color: black;
-  width: 100%;
-  top: -100%;
-  transition: .3s;
-  z-index: 999; }
-
-.page-grooming-tip .mobile-menu.expand {
-  top: 75px;
-  height: 100vh; }
-
-.page-grooming-tip .mobile-menu li {
-  list-style-type: none;
-  font-size: 25px;
-  margin: 27px;
-  color: white; }
-
-.page-grooming-tip .content {
+.page-grooming-tips .content {
   height: 100px;
   color: white;
   line-height: 2;
@@ -477,56 +401,47 @@ li {
   overflow: hidden;
   transition: .3s; }
 
-.page-grooming-tip .content div {
+.page-grooming-tips .content div {
   width: 100%;
   font-size: 25px;
   text-transform: uppercase;
   float: right;
   padding: 3% 20%; }
 
-.page-grooming-tip .content-section p {
-  width: 60%;
+.page-grooming-tips .content-section p {
+  width: 50%;
   font-size: 16px;
   line-height: 20px;
   padding: 10px 5%;
   float: right; }
 
-.page-grooming-tip .content.expand {
+.page-grooming-tips .content-image {
+  float: left;
+  position: relative; }
+
+.page-grooming-tips .content.expand {
   height: auto;
   width: 100%;
   transition: 1s; }
 
-.page-grooming-tip .cleansing-section {
+.page-grooming-tips .cleansing-section {
   background-image: -moz-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);
   background-image: -webkit-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);
-  background-image: -ms-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);
+  background-image: -ms-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%); }
+  @media only screen and (min-width: 768px) {
+    .page-grooming-tips .cleansing-section {
+      width: 77%;
+      padding-bottom: 27%; } }
+
+.page-grooming-tips .applying-shaving-cream-section {
+  background-color: #93f8e2;
   width: 100%; }
 
-.page-grooming-tip .applying-shaving-cream-section {
-  background-color: #93f8e2; }
-
-.page-grooming-tip .shaving-techniques-section {
+.page-grooming-tips .shaving-techniques-section {
   background-image: -moz-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
   background-image: -webkit-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
   background-image: -ms-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
   width: 100%; }
-
-.page-grooming-tip footer {
-  position: relative;
-  background-color: grey;
-  width: 100%;
-  height: 345px;
-  color: white; }
-
-.page-grooming-tip footer p {
-  padding: 3%;
-  margin: 0 auto;
-  position: absolute;
-  top: 40%; }
-
-@media screen and (min-width: 768px) {
-  .page-grooming-tip .content-section {
-    display: none; } }
 
 html {
   color: #93fce5; }

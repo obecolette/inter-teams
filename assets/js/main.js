@@ -6,17 +6,19 @@ $(document).on("ready", function(e) {
 	// 	axis: 'x',
 	// 	speed: 400
 	// });
-$(".icon-dots").click(function() {
-    var thisCaption = $(".icon-dots").index($(this));
+	$(".icon-dots").click(function() {
+	    var thisCaption = $(".icon-dots").index($(this));
 
-    $(".caption").eq(thisCaption).toggle("slow",function() {});
+	    $(".caption").eq(thisCaption).toggle("slow",function() {});
 
-});
+	});
 
 	$('.content').click(function(){
 		$(this).toggleClass('expand');
 
 	});
+
+
 
 
 	// $(".").hide();

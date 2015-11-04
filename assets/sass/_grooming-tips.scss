@@ -1,95 +1,95 @@
-.page-grooming-tip {
+.page-grooming-tips {
 
-	* {
-		box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-	}
+	// * {
+	// 	box-sizing: border-box;
+	// 	-webkit-box-sizing: border-box;
+	// }
 
-	.clearfix:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+	// .clearfix:after {
+	// 	content: "";
+	// 	display: table;
+	// 	clear: both;
+	// }
 
 
-	html, body{
-		width:100%;
-		font-family: 'Lato', sans-serif;
-	}
+	// html, body{
+	// 	width:100%;
+	// 	font-family: 'Lato', sans-serif;
+	// }
 
-	ul{
-		list-style:none;
-	}
+	// ul{
+	// 	list-style:none;
+	// }
 
-	header ul{
-		float:left;
-		margin: 49px 0px;
-		width: auto;
-		display:none;
-	}
+	// header ul{
+	// 	float:left;
+	// 	margin: 49px 0px;
+	// 	width: auto;
+	// 	display:none;
+	// }
 
-	header li{
-		/*float:left;*/
-		display:inline;
-		padding:20px 30px;
-		color:#ff7406;
-		font-size: 20px;
-	}
+	// header li{
+	// 	/*float:left;*/
+	// 	display:inline;
+	// 	padding:20px 30px;
+	// 	color:#ff7406;
+	// 	font-size: 20px;
+	// }
 
-	header{
-		position:relative;
-		width:100%;
-		height:75px;
-		z-index: 1000;
-		background-color: black;
-	}
+	// header{
+	// 	position:relative;
+	// 	width:100%;
+	// 	height:75px;
+	// 	z-index: 1000;
+	// 	background-color: black;
+	// }
 
-	.page-wrap{
-		width:90%;
-		margin: 0 5%;
-	}
+	// .page-wrap{
+	// 	width:90%;
+	// 	margin: 0 5%;
+	// }
 
-	.schick-logo{
-		display: block;
-		width:41.4545%;
-		height:60px;
-		float: left;
-		margin-top: 10px;
-	}
+	// .schick-logo{
+	// 	display: block;
+	// 	width:41.4545%;
+	// 	height:60px;
+	// 	float: left;
+	// 	margin-top: 10px;
+	// }
 
-	.mobile-navigation-menu{
-		float: right;
-		margin-top: 15px;
-	}
+	// .mobile-navigation-menu{
+	// 	float: right;
+	// 	margin-top: 15px;
+	// }
 
-	.mobile-menu-line{
-		width: 37px;
-		height: 3px;
-		border-radius: 1px;
-		background-color: white;
-		margin: 8px auto;
-	}
+	// .mobile-menu-line{
+	// 	width: 37px;
+	// 	height: 3px;
+	// 	border-radius: 1px;
+	// 	background-color: white;
+	// 	margin: 8px auto;
+	// }
 
-	.mobile-menu{
-		position: absolute;
-		background-color: black;
-		width: 100%;
-		top:-100%;
-		transition:.3s;
-		z-index: 999;
+	// .mobile-menu{
+	// 	position: absolute;
+	// 	background-color: black;
+	// 	width: 100%;
+	// 	top:-100%;
+	// 	transition:.3s;
+	// 	z-index: 999;
 
-	}
-	.mobile-menu.expand{
-		top: 75px;
-		height: 100vh;
-	}
+	// }
+	// .mobile-menu.expand{
+	// 	top: 75px;
+	// 	height: 100vh;
+	// }
 
-	.mobile-menu li{
-		list-style-type: none;
-		font-size: 25px;
-		margin: 27px;
-		color: white;
-	}
+	// .mobile-menu li{
+	// 	list-style-type: none;
+	// 	font-size: 25px;
+	// 	margin: 27px;
+	// 	color: white;
+	// }
 
 	.content{
 		height: 100px;
@@ -110,11 +110,16 @@
 	}
 
 	.content-section p {
-	  width: 60%;
+	  width: 50%;
 	  font-size: 16px;
 	  line-height: 20px;
 	  padding: 10px 5%;
 	  float: right;
+	}
+
+	.content-image {
+		float: left;
+		position: relative;
 	}
 
 	.content.expand{
@@ -127,11 +132,15 @@
 	  background-image: -moz-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
 	  background-image: -webkit-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
 	  background-image: -ms-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
-		width: 100%;
+		@media only screen and (min-width: 768px) {
+			width: 77%;
+			padding-bottom: 27%;
+		}
 	}
 
 	.applying-shaving-cream-section {
 		background-color:#93f8e2;
+		width: 100%;
 	}
 
 	.shaving-techniques-section{
@@ -142,27 +151,27 @@
 	}
 
 
-	footer {
-		position: relative;
-		background-color: grey;
-		width: 100%;
-		height: 345px;
-		color: white;
-	}
+	// footer {
+	// 	position: relative;
+	// 	background-color: grey;
+	// 	width: 100%;
+	// 	height: 345px;
+	// 	color: white;
+	// }
 
-	footer p {
-		padding: 3%;
-		margin: 0 auto;
-		position: absolute;
-		top: 40%;
-	}
+	// footer p {
+	// 	padding: 3%;
+	// 	margin: 0 auto;
+	// 	position: absolute;
+	// 	top: 40%;
+	// }
 
-	@media screen and (min-width: 768px){
+	// @media screen and (min-width: 768px){
 
-		.content-section{
-			display:none;
-		}
+	// 	.content-section{
+	// 		display:none;
+	// 	}
 
-	}
+	// }
 
 }

@@ -14,17 +14,18 @@
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <!-- <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script> -->
+<script src="assets/js/main.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>
 
 </head>
 	<body class="page-grooming-tips">
-		<header>
-			<div class="page-wrap">
-				<div class="schick-logo">
+		<!-- <header> -->
+			<!-- <div class="page-wrap"> -->
+				<!-- <div class="schick-logo">
 					<img src="assets/img/schick-logo.png">
-				</div>
+				</div> -->
 
-				<div class="navigation">
+				<!-- <div class="navigation">
 					<ul>
 						<li>Razors</li>
 						<li>Cream</li>
@@ -44,9 +45,31 @@
 					<div class="mobile-menu-line"></div>
 				</div>
 			</div>
+		</header> -->
+
+		<header>
+			<a href="index.html"><img class="logo logo-1" src="assets/img/logo.png" alt="Schick shield logo"></a>
+			<a href="#"><h2 class="icon-box"></h2></a>
+			<input class="hamburger" id="hamburger" type="checkbox"><label for="hamburger" class="menu"></label>
+			<nav id="navigation1" class="navigation">
+				<ul id="membership">
+					<li><a href="#">login</a></li>
+					<span>|</span>
+					<li><a href="#">join</a></li>
+				</ul>
+				<ul id="categories">
+				  <li><a href="#">razors</a></li>
+				  <li><a href="#">creams</a></li>
+				  <li><a href="#">cartridges</a></li>
+				  <li><a href="#">how it works</a></li>
+				  <li><a href="#">grooming tips</a></li>
+				  <li><a href="#">gift a gift</a></li>
+				</ul>
+
+			</nav>
 		</header>
 
-		<div class="mobile-menu">
+		<!-- <div class="mobile-menu">
 			<ul>
 				<li>Razors</li>
 				<li>Cream</li>
@@ -59,17 +82,18 @@
 				<li>Login | Join</li>
 			</ul>
 		</div>
-
+ -->
 		<section class="content-section">
 
-			<div class="cleansing-section content">
+			<div class="group-1 cleansing-section content">
 				<div>Cleansing</div>
-				<img src="assets/img/cleansing-splash.png">
+				<div class="content-image"><img src="assets/img/water-splash.png"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At rerum, repellat porro sunt culpa eum excepturi error hic id quae, iusto obcaecati enim autem distinctio veritatis molestiae deleniti optio voluptatem!</p>
 			</div>
 
 			<div class="applying-shaving-cream-section content">
 				<div>Applying Shaving Cream</div>
+				<div class="content-image"><img src="assets/img/shaving-cream.png"></div>
 				<p>Apply a thick layer of shaving cream or gel, and allow it to sit on skin approximately three minutes. This helps in a few ways:</p>
 
 				<p>– Keeps moisture on the skin to enhance softening</p>
@@ -80,20 +104,41 @@
 
 			<div class="shaving-techniques-section content">
 				<div>Shaving Techniques</div>
-
+				<div class="content-image"><img src="assets/img/razor.png"></div>
 				<p>Shave in the direction of hair growth. Take your time and shave carefully over sensitive areas. For a closer shave, carefully shave against the grain of hair growth.</p>
 
 				<p>Immediately rinse with cold water to remove any traces of soap or lather.</p>
 
 				<p>Use a clean, sharp blade. Newer blades require less force to cut through the hair than dull blades. Since you don't need much pressure with a new blade, you'll reduce the risk of nicks and cuts.</p>
+
+
 			</div>
 
 		</section>
 
-		<footer>
+		<!-- <footer>
 			<div class="social-icons"></div>
 			<p> 2015 Schick Shave Club. All Rights Reserved</p>
-		</footer>
+		</footer> -->
 
+
+		<footer>
+			<img class="logo" src="assets/img/logo.png" alt="Schick shield logo">
+			<ul class="legal">
+				<li><a href="*">about us</a></li>
+				<li><a href="*">privacy policy</a></li>
+				<li><a href="*">contact us</a></li>
+			</ul>
+
+			<ul class="social">
+				<li class="facebook"><a href="*" class="icon icon-facebook"></a></li>
+				<li class="twitter"><a href="*" class="icon icon-twitter"></a></li>
+				<li class="pinterest"><a href="*" class="icon icon-pinterest"></a></li>
+				<li class="instagram"><a href="*" class="icon icon-instagram"></a></li>
+			</ul>
+
+			<p>&#169; 2015 Schick Shave Club. All Rights Reserved</p>
+
+		</footer>
 	</body>
 </html>
