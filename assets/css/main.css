@@ -393,7 +393,8 @@ li {
       color: #727376; }
 
 .page-grooming-tips .content {
-  height: 100px;
+  position: relative;
+  height: 150px;
   color: white;
   line-height: 2;
   font-size: 30px;
@@ -402,27 +403,34 @@ li {
   transition: .3s; }
 
 .page-grooming-tips .content div {
-  width: 100%;
-  font-size: 25px;
-  text-transform: uppercase;
-  float: right;
-  padding: 3% 20%; }
+  padding-left: 10%; }
 
-.page-grooming-tips .content-section p {
+.page-grooming-tips h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 52px 0%; }
+
+.page-grooming-tips .p-content {
   width: 50%;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 10px 5%;
-  float: right; }
+  line-height: 18px;
+  position: absolute;
+  right: 10%;
+  font-size: 14px;
+  top: 150px; }
 
 .page-grooming-tips .content-image {
   float: left;
-  position: relative; }
+  top: 45%;
+  width: 80%; }
+
+.page-grooming-tips .splash img {
+  width: 50%; }
 
 .page-grooming-tips .content.expand {
   height: auto;
   width: 100%;
-  transition: 1s; }
+  transition: 1s;
+  padding-bottom: 150px; }
 
 .page-grooming-tips .cleansing-section {
   background-image: -moz-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);

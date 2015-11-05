@@ -92,40 +92,51 @@
 	// }
 
 	.content{
-		height: 100px;
+		position: relative;
+		height: 150px;
 		color:white;
 		line-height: 2;
 		font-size: 30px;
 		color: #434344;
 		overflow: hidden;
 		transition: .3s;
+
 	}
 
 	.content div {
-		width: 100%;
-		font-size: 25px;
-		text-transform: uppercase;
-		float: right;
-		padding: 3% 20%;
+		padding-left: 10%;
 	}
 
-	.content-section p {
-	  width: 50%;
-	  font-size: 16px;
-	  line-height: 20px;
-	  padding: 10px 5%;
-	  float: right;
+	h1 {
+		text-transform: uppercase;
+		font-size: 2rem;
+		padding: 52px 0%;
 	}
+
+	.p-content {
+	  width: 50%;
+    line-height: 18px;
+    position: absolute;
+    right: 10%;
+    font-size: 14px;
+    top: 150px;
+  }
 
 	.content-image {
 		float: left;
-		position: relative;
+		top: 45%;
+		width: 80%;
+	}
+
+	.splash img {
+		width: 50%;
 	}
 
 	.content.expand{
 		height: auto;
 		width: 100%;
 		transition: 1s;
+		padding-bottom: 150px;
 	}
 
 	.cleansing-section  {
