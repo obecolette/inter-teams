@@ -1,1 +1,2 @@
-# teams
+# inter-teams
+school teams projects
