@@ -7,7 +7,6 @@
 @import "_queryMD";
 @import "_queryLG";
 @import "_buttons";
-@import "grooming-tips";
 
 
 html {color: #93fce5;}
@@ -33,9 +32,8 @@ header {
 	position: relative;
 	background-color: #000;
 	font-family: Lato, sans-serif;
-	color: #fff;
+	color: #fff;	
 }
-
 
 .icon-box {
 	position: absolute;
@@ -52,22 +50,43 @@ nav {
 	padding-left: 40px;
 	line-height: 1.2em;
 	ul li {
-
+		
 		a{
 			font-size: 14px;
-  			font-weight: 400;
-  			:hover {
+  			font-weight: 400;  		
+  			&:hover {
   				color: #72fdd4;
+  				&:before {
+  					content: '';
+  					position: absolute;
+  					top: -56px;
+  					left: -213px;
+  					border-top: 75px solid transparent;
+  					border-right: 65px solid white;
+  					width: 10%;
+  					height: 10%;
+  					background-color: white; 
+  					transform: rotate(45deg);
+  					transform-origin: 21% 65%;
+  					z-index: -1;
+  				}
+
   			}
-  			&:before{
-  				content: "";
-  				width: 25px;
-  				height: 10px;
-  				background: #fff;
-  				position: absolute;
-  				left: -15%;
-  				background-color: white;
-  			}
+  			// &:before{
+  			// 	content: "";
+  			// 	width: 20px;
+  			// 	height: 3px;
+  			// 	background: #fff;
+  			// 	position: absolute;
+  			// 	left: 0px;
+
+  			// 	// width: 0;
+  			// 	height: 0;
+  			// 	border-top: 3px solid transparent;
+  			// 	border-left: 15px solid #fff;
+  			// 	border-bottom: 3px solid transparent;
+  			// }
+  			
   		}
 	}
 }
@@ -98,17 +117,22 @@ nav {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-.back {
-	background-color: #31d5e8;
-	img {opacity: .2;
-		position: absolute;
-	}
 
-}
+
 figure{
+	overflow: hidden;
+	.back {
+		height: 0;
+		padding-bottom: 100%;
+		img {
+			opacity: .1;
+			z-index: 0;	
+		}
+		// .caption{background-color: #31d5e8;}
+	}
 	width: 100%;
 	margin: 0;
-	display: block;
+	// display: block;
 	-webkit-transition:height 0.5s ease-out;
 	-moz-transition:height 0.5s ease-out;
 	-o-transition:height 0.5s ease-out;
@@ -116,37 +140,49 @@ figure{
 	img {
 		width: 75.5%;
 		display: inline-block;
+		opacity: 1;
 	}
-
+	
 	h4, h5, h2, p {color: #515454;}
+	p {font-size: .8em;}
 	h4{
 		font-weight: bold;
-		// margin: 30px 0;
+		
 	}
 	.icon {
 		display: inline;
 		&:hover {color: #3BA9A9;}
 	}
+
 	figcaption {
+		// position: relative;
+		// height: 0;
+		// padding-bottom: percentage(200/768);
+		// z-index: 10;
+		// padding-left: 30%;
 		.icon-dots, .icon-view, .icon-add {
 			font-size: 3em;
+			text-decoration: none;
 		}
 	}
-
+	
 }
 
 .razor-F, .razor-B{
 	background: -webkit-linear-gradient(#71eefd,#94f5f9,#71eefd) ;
 	background: linear-gradient(#71eefd,#94f5f9,#71eefd) ;
-}
+} 
 .razor-E, .razor-C{
 	background: -webkit-linear-gradient(#71fdf5,#93fce5,#71fdf5) ;
 	background: linear-gradient(#71fdf5,#93fce5,#71fdf5) ;
 }
-.razor-D, .razor-A.front{
+.razor-D, .razor-A{
 	background: -webkit-linear-gradient(#71fdd4,#9cfae9,#71fdd4) ;
 	background: linear-gradient(#71fdd4,#9cfae9,#71fdd4) ;
 }
+
+
+
 
 
 
@@ -159,7 +195,7 @@ figure{
 	background-repeat: no-repeat;
 	background-position-y: 70px;
 	background-image: url(../img/backgroundWave.png);
-
+	
 
 	.icon-arrowleft a, .icon-arrownext a{
 		&:hover{color: #09BA93;}
@@ -171,9 +207,10 @@ figure{
 	}
 	.slideshow {
 		text-align: center;
-		display: inline-block;
-		margin: 0 0 115px 0;
+		display: block;
+		margin: 0 auto;
 		.icon-razors {
+			margin: 0 auto;
 			font-size: 13rem;
 			color: #727376;
 		}
@@ -184,3 +221,4 @@ figure{
 	}
 
 }
+	
