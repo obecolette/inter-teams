@@ -68,7 +68,13 @@
 			position: relative;
 			left: 85%;
 		}
-		.caption {display: block;}
+		.caption {
+			display: block;
+			
+
+			// height: 0;
+			// padding-bottom: percentage(162/320);
+		}
 	}
 
 

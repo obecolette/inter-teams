@@ -62,43 +62,64 @@
 		float: left;
 		height: 30%;
 		img {
-			position: absolute;	
+			position: absolute;
 			top: 50%;
 			left:50%;
 		}
+		.caption {
+			position: relative;
+			background-color: rgba(49, 213, 232, 0.8);
+			height: 0;
+			z-index: 1;
+			padding: 15% 0 0 30%;
+		}
+
 		.mobile-hide{display: none;}
 		.icon-dots {
 			position: absolute;
 			bottom: 10px;
 			right: 20px;
+			z-index: 2;
 		}
 		h4 {display: none;}	
 	}
 	.razors {height: 0;}
+	.razor-C .caption, .razor-D .caption {
+		padding-left: 40%;
+	}
 	.razor-A, .razor-B, .razor-C {padding-bottom: percentage(200/598);}
 	.razor-D, .razor-E, .razor-F {padding-bottom: percentage(195/768);}
 	.razor-A{	
 		width: 28.428093645485%;
 		img {	
 			transform: translate(-50%, -50%) rotate(78deg);
-		}			
+		}
+		.caption {padding-bottom: percentage(200/170);}			
 	}
 	.razor-B{	
 		width: 26.421404682274%;
 		img {transform: translate(-50%, -50%) rotate(75deg);}
+		.caption {padding-bottom: percentage(200/158);}
 	}
 	.razor-C{
 		width: 45.150501672241%;
 		img {transform: translate(-50%, -50%) rotate(-15deg);}
+		.caption {
+			padding-top: 9%;
+			padding-bottom: percentage(200/270);}
 	}
 	.razor-D {
 		clear: both;
 		width: 42.70833333%;
 		img {transform: translate(-50%, -50%) rotate(-15deg);}
+		.caption {
+			padding-top: 10%;
+			padding-bottom: percentage(194/329);}
 	}
 	.razor-E, .razor-F {
 		width: 28.64583333%;
 		img {transform: translate(-50%, -50%) rotate(75deg);}
+		.caption {padding-bottom: percentage(194/220);}
 
 	}
 

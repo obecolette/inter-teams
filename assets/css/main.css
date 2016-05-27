@@ -249,16 +249,25 @@ li {
       position: absolute;
       top: 50%;
       left: 50%; }
+    figure .caption {
+      position: relative;
+      background-color: rgba(49, 213, 232, 0.8);
+      height: 0;
+      z-index: 1;
+      padding: 15% 0 0 30%; }
     figure .mobile-hide {
       display: none; }
     figure .icon-dots {
       position: absolute;
       bottom: 10px;
-      right: 20px; }
+      right: 20px;
+      z-index: 2; }
     figure h4 {
       display: none; }
   .razors {
     height: 0; }
+  .razor-C .caption, .razor-D .caption {
+    padding-left: 40%; }
   .razor-A, .razor-B, .razor-C {
     padding-bottom: 33.44482%; }
   .razor-D, .razor-E, .razor-F {
@@ -267,23 +276,35 @@ li {
     width: 28.428093645485%; }
     .razor-A img {
       transform: translate(-50%, -50%) rotate(78deg); }
+    .razor-A .caption {
+      padding-bottom: 117.64706%; }
   .razor-B {
     width: 26.421404682274%; }
     .razor-B img {
       transform: translate(-50%, -50%) rotate(75deg); }
+    .razor-B .caption {
+      padding-bottom: 126.58228%; }
   .razor-C {
     width: 45.150501672241%; }
     .razor-C img {
       transform: translate(-50%, -50%) rotate(-15deg); }
+    .razor-C .caption {
+      padding-top: 9%;
+      padding-bottom: 74.07407%; }
   .razor-D {
     clear: both;
     width: 42.70833333%; }
     .razor-D img {
       transform: translate(-50%, -50%) rotate(-15deg); }
+    .razor-D .caption {
+      padding-top: 10%;
+      padding-bottom: 58.96657%; }
   .razor-E, .razor-F {
     width: 28.64583333%; }
     .razor-E img, .razor-F img {
       transform: translate(-50%, -50%) rotate(75deg); }
+    .razor-E .caption, .razor-F .caption {
+      padding-bottom: 88.18182%; }
   .slideshow {
     width: 90%; }
   footer {
@@ -344,15 +365,23 @@ li {
     .group-1 .razor-A {
       float: left;
       width: 28.31609%;
-      padding-bottom: 72.34243%; }
+      padding-bottom: 72.24835%; }
       .group-1 .razor-A img {
         width: 177%; }
+      .group-1 .razor-A .caption {
+        padding-top: 103%;
+        padding-bottom: 255.1495%; }
     .group-1 .razor-B, .group-1 .razor-C {
       padding-bottom: 29.72719%; }
     .group-1 .razor-B {
       width: 28.69238%; }
+      .group-1 .razor-B .caption {
+        padding-top: 22.5%;
+        padding-bottom: 103.60656%; }
     .group-1 .razor-C {
       width: 42.89746%; }
+      .group-1 .razor-C .caption {
+        padding-bottom: 56.89278%; }
   .by-line_med {
     width: 77.81845%;
     height: 0;
@@ -362,12 +391,22 @@ li {
     float: left;
     width: 77.89165%;
     padding-bottom: 20.86384%; }
+    .group-2 .caption {
+      padding-top: 20%; }
     .group-2 .razor-D {
       width: 43.08561%; }
+      .group-2 .razor-D .caption {
+        padding-top: 12%;
+        padding-bottom: 45.63319%; }
     .group-2 .razor-E {
       width: 28.31609%; }
+      .group-2 .razor-E .caption {
+        padding: 60px 0 0 63px;
+        padding-bottom: 69.43522%; }
     .group-2 .razor-F {
       width: 28.59831%; }
+      .group-2 .razor-F .caption {
+        padding-bottom: 72.03947%; }
   .razor-D, .razor-E, .razor-F {
     padding-bottom: 24.92944%; } }
 
@@ -391,65 +430,6 @@ li {
       background-color: transparent;
       border: 5px solid #727376;
       color: #727376; }
-
-.page-grooming-tips .content {
-  position: relative;
-  height: 150px;
-  color: white;
-  line-height: 2;
-  font-size: 30px;
-  color: #434344;
-  overflow: hidden;
-  transition: .3s; }
-
-.page-grooming-tips .content div {
-  padding-left: 10%; }
-
-.page-grooming-tips h1 {
-  text-transform: uppercase;
-  font-size: 2rem;
-  padding: 52px 0%; }
-
-.page-grooming-tips .p-content {
-  width: 50%;
-  line-height: 18px;
-  position: absolute;
-  right: 10%;
-  font-size: 14px;
-  top: 150px; }
-
-.page-grooming-tips .content-image {
-  float: left;
-  top: 45%;
-  width: 80%; }
-
-.page-grooming-tips .splash img {
-  width: 50%; }
-
-.page-grooming-tips .content.expand {
-  height: auto;
-  width: 100%;
-  transition: 1s;
-  padding-bottom: 150px; }
-
-.page-grooming-tips .cleansing-section {
-  background-image: -moz-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);
-  background-image: -webkit-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);
-  background-image: -ms-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%); }
-  @media only screen and (min-width: 768px) {
-    .page-grooming-tips .cleansing-section {
-      width: 77%;
-      padding-bottom: 27%; } }
-
-.page-grooming-tips .applying-shaving-cream-section {
-  background-color: #93f8e2;
-  width: 100%; }
-
-.page-grooming-tips .shaving-techniques-section {
-  background-image: -moz-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
-  background-image: -webkit-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
-  background-image: -ms-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
-  width: 100%; }
 
 html {
   color: #93fce5; }
@@ -497,16 +477,21 @@ nav {
   nav ul li a {
     font-size: 14px;
     font-weight: 400; }
-    nav ul li a :hover {
+    nav ul li a:hover {
       color: #72fdd4; }
-    nav ul li a:before {
-      content: "";
-      width: 25px;
-      height: 10px;
-      background: #fff;
-      position: absolute;
-      left: -15%;
-      background-color: white; }
+      nav ul li a:hover:before {
+        content: '';
+        position: absolute;
+        top: -56px;
+        left: -213px;
+        border-top: 75px solid transparent;
+        border-right: 65px solid white;
+        width: 10%;
+        height: 10%;
+        background-color: white;
+        transform: rotate(45deg);
+        transform-origin: 21% 65%;
+        z-index: -1; }
 
 #categories a {
   text-decoration: none; }
@@ -529,25 +514,28 @@ nav {
   background-repeat: no-repeat;
   background-size: contain; }
 
-.back {
-  background-color: #31d5e8; }
-  .back img {
-    opacity: .2;
-    position: absolute; }
-
 figure {
+  overflow: hidden;
   width: 100%;
   margin: 0;
-  display: block;
   -webkit-transition: height 0.5s ease-out;
   -moz-transition: height 0.5s ease-out;
   -o-transition: height 0.5s ease-out;
   transition: height 0.5s ease-out; }
+  figure .back {
+    height: 0;
+    padding-bottom: 100%; }
+    figure .back img {
+      opacity: .1;
+      z-index: 0; }
   figure img {
     width: 75.5%;
-    display: inline-block; }
+    display: inline-block;
+    opacity: 1; }
   figure h4, figure h5, figure h2, figure p {
     color: #515454; }
+  figure p {
+    font-size: .8em; }
   figure h4 {
     font-weight: bold; }
   figure .icon {
@@ -555,7 +543,8 @@ figure {
     figure .icon:hover {
       color: #3BA9A9; }
   figure figcaption .icon-dots, figure figcaption .icon-view, figure figcaption .icon-add {
-    font-size: 3em; }
+    font-size: 3em;
+    text-decoration: none; }
 
 .razor-F, .razor-B {
   background: -webkit-linear-gradient(#71eefd, #94f5f9, #71eefd);
@@ -565,7 +554,7 @@ figure {
   background: -webkit-linear-gradient(#71fdf5, #93fce5, #71fdf5);
   background: linear-gradient(#71fdf5, #93fce5, #71fdf5); }
 
-.razor-D, .razor-A.front {
+.razor-D, .razor-A {
   background: -webkit-linear-gradient(#71fdd4, #9cfae9, #71fdd4);
   background: linear-gradient(#71fdd4, #9cfae9, #71fdd4); }
 
@@ -585,9 +574,10 @@ figure {
     text-transform: uppercase; }
   #carousel .slideshow {
     text-align: center;
-    display: inline-block;
-    margin: 0 0 115px 0; }
+    display: block;
+    margin: 0 auto; }
     #carousel .slideshow .icon-razors {
+      margin: 0 auto;
       font-size: 13rem;
       color: #727376; }
     #carousel .slideshow h3 {
