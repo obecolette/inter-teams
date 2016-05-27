@@ -106,14 +106,18 @@ li {
     top: 10px;
     left: 20px;
     padding-bottom: 20px; }
+
   #categories {
     position: relative;
     top: -38px; }
+
   #membership {
     position: relative;
     top: 170px; }
+
   .by-line_med {
     display: none; }
+
   .by-line_sm {
     display: block;
     padding: 20px 10px;
@@ -130,6 +134,7 @@ li {
       margin: 0;
       font-weight: 200;
       font-size: 18px; }
+
   figure {
     width: 100%;
     margin: 0;
@@ -160,8 +165,10 @@ li {
       left: 85%; }
     figure .caption {
       display: block; }
+
   .slideshow {
     width: 85%; }
+
   footer {
     background-color: #515454; }
     footer .logo {
@@ -189,7 +196,6 @@ li {
       margin: 0;
       text-align: center;
       padding-bottom: 20px; } }
-
 @media only screen and (min-width: 768px) {
   header {
     position: relative;
@@ -198,7 +204,7 @@ li {
     right: 0;
     width: 22.13541666%;
     height: 0;
-    padding-bottom: 26.04167%; }
+    padding-bottom: 26.0416666667%; }
     header .icon-box {
       right: 10px; }
     header nav {
@@ -213,8 +219,10 @@ li {
         line-height: .8em; }
     header .menu {
       display: none; }
+
   .logo-1 {
     display: none; }
+
   #gallery {
     display: inline; }
     #gallery .by-line_sm {
@@ -227,7 +235,7 @@ li {
         margin: 4%; }
       #gallery .by-line_med .copy {
         display: inline-block;
-        width: 53.38542%;
+        width: 53.3854166667%;
         margin: 4% 0; }
       #gallery .by-line_med h1 {
         margin: 0;
@@ -241,6 +249,7 @@ li {
         font-size: 1.3em; }
     #gallery .group-1 {
       width: 77.864583333333%; }
+
   figure {
     position: relative;
     float: left;
@@ -257,35 +266,45 @@ li {
       right: 20px; }
     figure h4 {
       display: none; }
+
   .razors {
     height: 0; }
+
   .razor-A, .razor-B, .razor-C {
-    padding-bottom: 33.44482%; }
+    padding-bottom: 33.4448160535%; }
+
   .razor-D, .razor-E, .razor-F {
-    padding-bottom: 25.39062%; }
+    padding-bottom: 25.390625%; }
+
   .razor-A {
     width: 28.428093645485%; }
     .razor-A img {
       transform: translate(-50%, -50%) rotate(78deg); }
+
   .razor-B {
     width: 26.421404682274%; }
     .razor-B img {
       transform: translate(-50%, -50%) rotate(75deg); }
+
   .razor-C {
     width: 45.150501672241%; }
     .razor-C img {
       transform: translate(-50%, -50%) rotate(-15deg); }
+
   .razor-D {
     clear: both;
     width: 42.70833333%; }
     .razor-D img {
       transform: translate(-50%, -50%) rotate(-15deg); }
+
   .razor-E, .razor-F {
     width: 28.64583333%; }
     .razor-E img, .razor-F img {
       transform: translate(-50%, -50%) rotate(75deg); }
+
   .slideshow {
     width: 90%; }
+
   footer {
     position: relative;
     padding: 5%;
@@ -330,47 +349,50 @@ li {
       margin: 0;
       text-align: left;
       padding-bottom: 20px; } }
-
 @media only screen and (min-width: 1366px) {
   header {
-    width: 22.18155%;
+    width: 22.1815519766%;
     height: 0;
-    padding-bottom: 23.13324%; }
+    padding-bottom: 23.1332357247%; }
+
   .group-1, .razors, .group-2 {
     height: 0; }
+
   .group-1 {
-    width: 77.89165%;
-    padding-bottom: 23.13324%; }
+    width: 77.8916544656%;
+    padding-bottom: 23.1332357247%; }
     .group-1 .razor-A {
       float: left;
-      width: 28.31609%;
-      padding-bottom: 72.34243%; }
+      width: 28.3160865475%;
+      padding-bottom: 72.3424270931%; }
       .group-1 .razor-A img {
         width: 177%; }
     .group-1 .razor-B, .group-1 .razor-C {
-      padding-bottom: 29.72719%; }
+      padding-bottom: 29.727187206%; }
     .group-1 .razor-B {
-      width: 28.69238%; }
+      width: 28.6923800564%; }
     .group-1 .razor-C {
-      width: 42.89746%; }
+      width: 42.8974600188%; }
+
   .by-line_med {
-    width: 77.81845%;
+    width: 77.8184480234%;
     height: 0;
-    padding-bottom: 13.6896%;
+    padding-bottom: 13.6896046852%;
     float: right; }
+
   .group-2 {
     float: left;
-    width: 77.89165%;
-    padding-bottom: 20.86384%; }
+    width: 77.8916544656%;
+    padding-bottom: 20.8638360176%; }
     .group-2 .razor-D {
-      width: 43.08561%; }
+      width: 43.0856067733%; }
     .group-2 .razor-E {
-      width: 28.31609%; }
+      width: 28.3160865475%; }
     .group-2 .razor-F {
-      width: 28.59831%; }
-  .razor-D, .razor-E, .razor-F {
-    padding-bottom: 24.92944%; } }
+      width: 28.5983066792%; }
 
+  .razor-D, .razor-E, .razor-F {
+    padding-bottom: 24.9294449671%; } }
 .cta {
   margin-bottom: 40px; }
   .cta h4 {
@@ -401,15 +423,12 @@ li {
   color: #434344;
   overflow: hidden;
   transition: .3s; }
-
 .page-grooming-tips .content div {
   padding-left: 10%; }
-
 .page-grooming-tips h1 {
   text-transform: uppercase;
   font-size: 2rem;
   padding: 52px 0%; }
-
 .page-grooming-tips .p-content {
   width: 50%;
   line-height: 18px;
@@ -417,34 +436,27 @@ li {
   right: 10%;
   font-size: 14px;
   top: 150px; }
-
 .page-grooming-tips .content-image {
   float: left;
   top: 45%;
   width: 80%; }
-
 .page-grooming-tips .splash img {
   width: 50%; }
-
 .page-grooming-tips .content.expand {
   height: auto;
   width: 100%;
   transition: 1s;
   padding-bottom: 150px; }
-
 .page-grooming-tips .cleansing-section {
   background-image: -moz-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);
   background-image: -webkit-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%);
   background-image: -ms-linear-gradient(90deg, #d4fdfa 0%, #effaf9 0%, #f8f9f9 50%, #d4fdfa 100%); }
   @media only screen and (min-width: 768px) {
     .page-grooming-tips .cleansing-section {
-      width: 77%;
-      padding-bottom: 27%; } }
-
+      width: 100%; } }
 .page-grooming-tips .applying-shaving-cream-section {
   background-color: #93f8e2;
   width: 100%; }
-
 .page-grooming-tips .shaving-techniques-section {
   background-image: -moz-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
   background-image: -webkit-linear-gradient(90deg, #e9fbf9 0%, white 50%, #e9fbf9 100%);
@@ -455,7 +467,6 @@ html {
   color: #93fce5; }
 
 body {
-  color: #fff;
   font-family: 'Lato', sans-serif; }
 
 section, footer {
