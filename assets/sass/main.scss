@@ -9,6 +9,8 @@
 @import "_buttons";
 
 
+
+
 html {color: #93fce5;}
 body {
 	color: #fff;
@@ -32,7 +34,7 @@ header {
 	position: relative;
 	background-color: #000;
 	font-family: Lato, sans-serif;
-	color: #fff;	
+	color: #fff;
 }
 
 .icon-box {
@@ -50,10 +52,10 @@ nav {
 	padding-left: 40px;
 	line-height: 1.2em;
 	ul li {
-		
+
 		a{
 			font-size: 14px;
-  			font-weight: 400;  		
+  			font-weight: 400;
   			&:hover {
   				color: #72fdd4;
   				&:before {
@@ -65,7 +67,7 @@ nav {
   					border-right: 65px solid white;
   					width: 10%;
   					height: 10%;
-  					background-color: white; 
+  					background-color: white;
   					transform: rotate(45deg);
   					transform-origin: 21% 65%;
   					z-index: -1;
@@ -86,7 +88,7 @@ nav {
   			// 	border-left: 15px solid #fff;
   			// 	border-bottom: 3px solid transparent;
   			// }
-  			
+
   		}
 	}
 }
@@ -126,7 +128,7 @@ figure{
 		padding-bottom: 100%;
 		img {
 			opacity: .1;
-			z-index: 0;	
+			z-index: 0;
 		}
 		// .caption{background-color: #31d5e8;}
 	}
@@ -142,12 +144,12 @@ figure{
 		display: inline-block;
 		opacity: 1;
 	}
-	
+
 	h4, h5, h2, p {color: #515454;}
 	p {font-size: .8em;}
 	h4{
 		font-weight: bold;
-		
+
 	}
 	.icon {
 		display: inline;
@@ -165,13 +167,13 @@ figure{
 			text-decoration: none;
 		}
 	}
-	
+
 }
 
 .razor-F, .razor-B{
 	background: -webkit-linear-gradient(#71eefd,#94f5f9,#71eefd) ;
 	background: linear-gradient(#71eefd,#94f5f9,#71eefd) ;
-} 
+}
 .razor-E, .razor-C{
 	background: -webkit-linear-gradient(#71fdf5,#93fce5,#71fdf5) ;
 	background: linear-gradient(#71fdf5,#93fce5,#71fdf5) ;
@@ -195,7 +197,7 @@ figure{
 	background-repeat: no-repeat;
 	background-position-y: 70px;
 	background-image: url(../img/backgroundWave.png);
-	
+
 
 	.icon-arrowleft a, .icon-arrownext a{
 		&:hover{color: #09BA93;}
@@ -221,4 +223,3 @@ figure{
 	}
 
 }
-	
