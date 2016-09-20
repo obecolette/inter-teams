@@ -2,17 +2,17 @@
 	.logo-1 {
 		position: relative;
 		top: 10px;
-		left: 20px;	
+		left: 20px;
 		padding-bottom: 20px;
 	}
 	#categories {
 		position: relative;
 		top: -38px;
 	}
-	#membership { 
-		position: relative; 
+	#membership {
+		position: relative;
 		top: 170px;}
-		
+
 	.by-line_med {display: none;}
 	.by-line_sm {
 		display: block;
@@ -31,7 +31,7 @@
 			margin: 0;
 			font-weight: 200;
 			font-size: 18px;
-		}	
+		}
 	}
 
 	figure{
@@ -49,7 +49,7 @@
 			display: block;
 			margin: 2px 40px 0;
 		}
-		
+
 		h4, h5, h2, p {color: #515454;}
 		h4{
 			font-weight: bold;
@@ -69,10 +69,10 @@
 			left: 85%;
 		}
 		.caption {
-			display: block;
-			
+			// display: block;
 
-			// height: 0;
+
+			// height: 100%;
 			// padding-bottom: percentage(162/320);
 		}
 	}
@@ -85,7 +85,7 @@
 
 	footer {
 		.logo {display: none;}
-		background-color: #515454; 
+		background-color: #515454;
 		ul {
 			padding: 0;
 			li{ display: inline-block;

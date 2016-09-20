@@ -1,0 +1,70 @@
+.page-grooming-tips {
+	.content{
+		position: relative;
+		height: 150px;
+		color:white;
+		line-height: 2;
+		font-size: 30px;
+		color: #434344;
+		overflow: hidden;
+		transition: .3s;
+	}
+
+	.content div {
+		padding-left: 10%;
+	}
+
+	h1 {
+		text-transform: uppercase;
+		font-size: 2rem;
+		padding: 52px 0%;
+	}
+
+	.p-content {
+	  width: 50%;
+    line-height: 18px;
+    position: absolute;
+    right: 10%;
+    font-size: 14px;
+    top: 150px;
+  }
+
+	.content-image {
+		float: left;
+		top: 45%;
+		width: 80%;
+	}
+
+	.splash img {
+		width: 50%;
+	}
+
+	.content.expand{
+		height: auto;
+		width: 100%;
+		transition: 1s;
+		padding-bottom: 150px;
+	}
+
+	.cleansing-section  {
+	  background-image: -moz-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
+	  background-image: -webkit-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
+	  background-image: -ms-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
+		@media only screen and (min-width: 768px) {
+			width: 100%;
+		}
+	}
+
+	.applying-shaving-cream-section {
+		background-color:#93f8e2;
+		width: 100%;
+	}
+
+	.shaving-techniques-section{
+		background-image: -moz-linear-gradient( 90deg, rgb(233,251,249) 0%, rgb(255,255,255) 50%, rgb(233,251,249) 100%);
+		background-image: -webkit-linear-gradient( 90deg, rgb(233,251,249) 0%, rgb(255,255,255) 50%, rgb(233,251,249) 100%);
+		background-image: -ms-linear-gradient( 90deg, rgb(233,251,249) 0%, rgb(255,255,255) 50%, rgb(233,251,249) 100%);
+		width: 100%;
+	}
+
+}

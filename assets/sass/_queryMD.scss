@@ -5,12 +5,17 @@
 		float: right;
 		right: 0;
 		width: 22.13541666%;
-		height: 0;
-		padding-bottom: percentage(200/768);
+		height: 240px;
+		// padding-bottom: percentage(200/768);
+
+		&#gallery-header {
+			height: 0;
+			padding-bottom: percentage(200/768);
+		}
 		.icon-box{right: 10px;}
 		nav {
 			width: 100%;
-			margin: 0;	
+			margin: 0;
 			padding-left: 23px;
 			ul {line-height: 1em;}
 			#membership {
@@ -23,7 +28,7 @@
 		.menu{display:none;}
 	}
 	.logo-1{display: none;}
-	
+
 
 	#gallery {
 		display: inline;
@@ -51,7 +56,7 @@
 				padding-right: 10%;
 				font-weight: 300;
 				font-size: 1.3em;
-			}		
+			}
 		}
 		.group-1 {
 			width: 77.864583333333%;
@@ -66,13 +71,6 @@
 			top: 50%;
 			left:50%;
 		}
-		.caption {
-			position: relative;
-			background-color: rgba(49, 213, 232, 0.8);
-			height: 0;
-			z-index: 1;
-			padding: 15% 0 0 30%;
-		}
 
 		.mobile-hide{display: none;}
 		.icon-dots {
@@ -81,7 +79,7 @@
 			right: 20px;
 			z-index: 2;
 		}
-		h4 {display: none;}	
+		h4 {display: none;}
 	}
 	.razors {height: 0;}
 	.razor-C .caption, .razor-D .caption {
@@ -89,14 +87,14 @@
 	}
 	.razor-A, .razor-B, .razor-C {padding-bottom: percentage(200/598);}
 	.razor-D, .razor-E, .razor-F {padding-bottom: percentage(195/768);}
-	.razor-A{	
+	.razor-A{
 		width: 28.428093645485%;
-		img {	
+		img {
 			transform: translate(-50%, -50%) rotate(78deg);
 		}
-		.caption {padding-bottom: percentage(200/170);}			
+		.caption {padding-bottom: percentage(200/170);}
 	}
-	.razor-B{	
+	.razor-B{
 		width: 26.421404682274%;
 		img {transform: translate(-50%, -50%) rotate(75deg);}
 		.caption {padding-bottom: percentage(200/158);}
@@ -128,7 +126,7 @@
 	footer {
 		position: relative;
 		padding: 5%;
-		background-color: #515454; 
+		background-color: #515454;
 		.logo {
 			display: inline-block;
 			position: relative;

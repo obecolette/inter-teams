@@ -1,15 +1,18 @@
 
 // @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "_variables";
-@import "_utils";
-@import "_hamburger";
-@import "_querySM";
-@import "_queryMD";
-@import "_queryLG";
-@import "_buttons";
+@import "variables";
+@import "utils";
+@import "hamburger";
+@import "querySM";
+@import "queryMD";
+@import "queryLG";
+@import "buttons";
+@import "mixins";
+@import "grooming-tips";
 
-
-
+* {
+	box-sizing: border-box;
+}
 
 html {color: #93fce5;}
 body {
@@ -107,13 +110,6 @@ nav {
 	span {margin: 0 5px;}
 }
 
-
-
-
-
-
-
-
 #gallery {
 	background-image: url(../img/background_pattern.png);
 	background-repeat: no-repeat;
@@ -123,6 +119,7 @@ nav {
 
 figure{
 	overflow: hidden;
+	position: relative;
 	.back {
 		height: 0;
 		padding-bottom: 100%;
@@ -156,15 +153,30 @@ figure{
 		&:hover {color: #3BA9A9;}
 	}
 
-	figcaption {
-		// position: relative;
-		// height: 0;
-		// padding-bottom: percentage(200/768);
-		// z-index: 10;
-		// padding-left: 30%;
-		.icon-dots, .icon-view, .icon-add {
-			font-size: 3em;
-			text-decoration: none;
+	.icon-dots, .icon-view, .icon-add {
+		font-size: 3em;
+		text-decoration: none;
+		z-index: 999;
+	}
+
+	.caption {
+		position: absolute;
+		background-color: rgba(49, 213, 232, 0.8);
+		height: 100%;
+		z-index: 1;
+		padding: 15% 0 0 30%;
+		top: 0;
+		left: 0;
+		width: 100%;
+		opacity: 0;
+		transition: 0.25s ease;
+
+		&.active {
+			opacity: 1;
+		}
+
+		@include tablet {
+			height: 0;
 		}
 	}
 
@@ -182,12 +194,6 @@ figure{
 	background: -webkit-linear-gradient(#71fdd4,#9cfae9,#71fdd4) ;
 	background: linear-gradient(#71fdd4,#9cfae9,#71fdd4) ;
 }
-
-
-
-
-
-
 
 #carousel {
 	clear: both;

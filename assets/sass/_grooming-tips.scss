@@ -1,151 +1,135 @@
 .page-grooming-tips {
+	.header-container {
+		position: relative;
+		height: auto;
+		float: left;
+		width: 100%;
 
-	// * {
-	// 	box-sizing: border-box;
-	// 	-webkit-box-sizing: border-box;
-	// }
+		@include tablet {
+			height: 240px;
+		}
+	 	.by-line_med {
+			width: 70%;
+			float: left;
+			padding: 20px;
+			height: 100% !important;
 
-	// .clearfix:after {
-	// 	content: "";
-	// 	display: table;
-	// 	clear: both;
-	// }
+			a {
+				float: left;
+			    line-height: 200px;
+			    @include tablet {
+			    	width: 30%;
+			    }
 
+			}
+			.copy {
+				float: left;
+				padding-left: 40px;
+				width: 65%;
+				padding-top: inherit;
+				h1 {
+					margin-bottom: 0;
+					font-size: 2.5em;
+					font-variant: small-caps;
+				    font-weight: 300;
+				}
+				h4 {
+					margin: 0;
+					padding-right: 10%;
+					font-weight: 300;
+					font-size: 1.3em;
+				}
 
-	// html, body{
-	// 	width:100%;
-	// 	font-family: 'Lato', sans-serif;
-	// }
+				.logo-1 {
+					    width: 28%;
+    left: 8px;
+				}
 
-	// ul{
-	// 	list-style:none;
-	// }
+			}
+	 	}
+	}
 
-	// header ul{
-	// 	float:left;
-	// 	margin: 49px 0px;
-	// 	width: auto;
-	// 	display:none;
-	// }
-
-	// header li{
-	// 	/*float:left;*/
-	// 	display:inline;
-	// 	padding:20px 30px;
-	// 	color:#ff7406;
-	// 	font-size: 20px;
-	// }
-
-	// header{
-	// 	position:relative;
-	// 	width:100%;
-	// 	height:75px;
-	// 	z-index: 1000;
-	// 	background-color: black;
-	// }
-
-	// .page-wrap{
-	// 	width:90%;
-	// 	margin: 0 5%;
-	// }
-
-	// .schick-logo{
-	// 	display: block;
-	// 	width:41.4545%;
-	// 	height:60px;
-	// 	float: left;
-	// 	margin-top: 10px;
-	// }
-
-	// .mobile-navigation-menu{
-	// 	float: right;
-	// 	margin-top: 15px;
-	// }
-
-	// .mobile-menu-line{
-	// 	width: 37px;
-	// 	height: 3px;
-	// 	border-radius: 1px;
-	// 	background-color: white;
-	// 	margin: 8px auto;
-	// }
-
-	// .mobile-menu{
-	// 	position: absolute;
-	// 	background-color: black;
-	// 	width: 100%;
-	// 	top:-100%;
-	// 	transition:.3s;
-	// 	z-index: 999;
-
-	// }
-	// .mobile-menu.expand{
-	// 	top: 75px;
-	// 	height: 100vh;
-	// }
-
-	// .mobile-menu li{
-	// 	list-style-type: none;
-	// 	font-size: 25px;
-	// 	margin: 27px;
-	// 	color: white;
-	// }
 
 	.content{
-		position: relative;
+		width: 100%;
 		height: 150px;
-		color:white;
+		color: white;
 		line-height: 2;
 		font-size: 30px;
 		color: #434344;
 		overflow: hidden;
 		transition: .3s;
+		display: block;
+
+		.content-copy {
+			width: 50%;
+			float: right;
+			position: relative;
+			padding-right: 10px;
+		}
+		h1{
+			font-size: 22px;
+			text-transform: uppercase;
+			padding-top: 25px;
+			&.cleansing {
+				padding-top: 52px;
+			}
+		}
 
 	}
 
-	.content div {
-		padding-left: 10%;
+	.content-section p {
+	  width: 100%;
+	  font-size: 16px;
+	  line-height: 20px;
+	  padding: 10px 5%;
+	  float: right;
+	  opacity: 0;
+	     font-weight: 100;
+	  transition: .25s ease;
 	}
-
-	h1 {
-		text-transform: uppercase;
-		font-size: 2rem;
-		padding: 52px 0%;
-	}
-
-	.p-content {
-	  width: 50%;
-    line-height: 18px;
-    position: absolute;
-    right: 10%;
-    font-size: 14px;
-    top: 150px;
-  }
 
 	.content-image {
-		float: left;
-		top: 45%;
-		width: 80%;
-	}
-
-	.splash img {
 		width: 50%;
+		float: left;
+		position: relative;
+		img {
+			top: 16px;
+			position: absolute;
+
+			&#splash {
+			    width: 260px;
+			    left: -122px;
+			}
+			&#cream {
+			    width: 105px;
+			    left: 3px;
+			}
+			&#razor {
+			    width: 95px;
+			    left: 2px;
+			}
+		}
 	}
 
 	.content.expand{
-		height: auto;
+		height: 350px;
 		width: 100%;
 		transition: 1s;
-		padding-bottom: 150px;
+
+		.content-copy p {
+			opacity: 1;
+		}
 	}
 
 	.cleansing-section  {
 	  background-image: -moz-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
 	  background-image: -webkit-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
 	  background-image: -ms-linear-gradient( 90deg, rgb(212,253,250) 0%, rgb(239,250,249) 0%, rgb(248,249,249) 50%, rgb(212,253,250) 100%);
-		@media only screen and (min-width: 768px) {
-			width: 100%;
-		}
+		// @media only screen and (min-width: 768px) {
+		// 	width: 77%;
+		// 	padding-bottom: 27%;
+		// }
 	}
 
 	.applying-shaving-cream-section {

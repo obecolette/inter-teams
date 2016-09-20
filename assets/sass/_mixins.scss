@@ -1,0 +1,18 @@
+@mixin tablet {
+  @media (min-width: #{768px}) {
+   @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{1366px}) {
+    @content;
+  }
+}
+
+@mixin transition {
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+        transition: .5s ease;
+}
