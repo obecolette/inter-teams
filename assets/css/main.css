@@ -350,8 +350,8 @@ li {
     footer .social {
       display: inline-block;
       position: relative;
-      width: 60%;
-      text-align: right; }
+      width: 100%;
+      text-align: center; }
       footer .social li {
         margin: 0 1%; }
       footer .social a {
@@ -361,9 +361,10 @@ li {
         footer .social a:hover {
           color: #72fdd4; }
     footer p {
+      width: 100%;
       font-weight: lighter;
       margin: 0;
-      text-align: left;
+      text-align: center;
       padding-bottom: 20px; } }
 @media only screen and (min-width: 1366px) {
   header {
@@ -525,14 +526,24 @@ li {
     .page-grooming-tips .content-image img#splash {
       width: 260px;
       left: -122px; }
+      @media (min-width: 768px) {
+        .page-grooming-tips .content-image img#splash {
+          width: 360px; } }
     .page-grooming-tips .content-image img#cream {
       width: 105px;
       left: 3px; }
+      @media (min-width: 768px) {
+        .page-grooming-tips .content-image img#cream {
+          width: 205px; } }
     .page-grooming-tips .content-image img#razor {
       width: 95px;
       left: 2px; }
+      @media (min-width: 768px) {
+        .page-grooming-tips .content-image img#razor {
+          width: 195px; } }
 .page-grooming-tips .content.expand {
-  height: 350px;
+  height: auto;
+  min-height: 350px;
   width: 100%;
   transition: 1s; }
   .page-grooming-tips .content.expand .content-copy p {

@@ -154,8 +154,8 @@
 		.social {
 			display: inline-block;
 			position: relative;
-			width: 60%;
-			text-align: right;
+			width: 100%;
+			text-align: center;
 			li {margin: 0 1%;}
 			a {
 				color: #fff;
@@ -165,9 +165,10 @@
 			}
 		}
 		p {
+			width: 100%;
 			font-weight: lighter;
 			margin: 0;
-			text-align: left;
+			text-align: center;
 			padding-bottom: 20px;
 		}
 	}
