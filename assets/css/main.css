@@ -148,8 +148,8 @@ li {
       display: none; }
     figure img {
       width: 78.5%;
-      display: block;
-      margin: 2px 40px 0; }
+      margin: 2px 40px 0;
+      display: none; }
     figure h4, figure h5, figure h2, figure p {
       color: #515454; }
     figure h4 {
@@ -370,7 +370,13 @@ li {
   header {
     width: 22.1815519766%;
     height: 0;
-    padding-bottom: 23.1332357247%; }
+    padding-bottom: 23.041667% !important; }
+
+  .header-container {
+    height: auto !important; }
+
+  .caption {
+    height: 100%; }
 
   .group-1, .razors, .group-2 {
     height: 0; }
@@ -393,11 +399,11 @@ li {
       width: 28.6923800564%; }
       .group-1 .razor-B .caption {
         padding-top: 22.5%;
-        padding-bottom: 103.606557377%; }
+        height: 100%; }
     .group-1 .razor-C {
       width: 42.8974600188%; }
       .group-1 .razor-C .caption {
-        padding-bottom: 56.8927789934%; }
+        height: 100%; }
 
   .by-line_med {
     width: 77.8184480234%;
@@ -468,11 +474,23 @@ li {
       @media (min-width: 768px) {
         .page-grooming-tips .header-container .by-line_med a {
           width: 30%; } }
+      @media (min-width: 1366px) {
+        .page-grooming-tips .header-container .by-line_med a {
+          position: relative;
+          padding: 100px; } }
+      @media (min-width: 1366px) {
+        .page-grooming-tips .header-container .by-line_med a img {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%); } }
     .page-grooming-tips .header-container .by-line_med .copy {
       float: left;
       padding-left: 40px;
-      width: 65%;
-      padding-top: inherit; }
+      width: 70%;
+      padding-top: 20px; }
+      @media (min-width: 1366px) {
+        .page-grooming-tips .header-container .by-line_med .copy {
+          padding-top: 70px; } }
       .page-grooming-tips .header-container .by-line_med .copy h1 {
         margin-bottom: 0;
         font-size: 2.5em;
@@ -485,7 +503,7 @@ li {
         font-size: 1.3em; }
       .page-grooming-tips .header-container .by-line_med .copy .logo-1 {
         width: 28%;
-        left: 8px; }
+        padding-left: 40px; }
 .page-grooming-tips .content {
   width: 100%;
   height: 150px;
@@ -497,10 +515,17 @@ li {
   transition: .3s;
   display: block; }
   .page-grooming-tips .content .content-copy {
-    width: 50%;
+    width: 80%;
     float: right;
     position: relative;
     padding-right: 10px; }
+    @media (min-width: 768px) {
+      .page-grooming-tips .content .content-copy {
+        width: 60%;
+        margin-right: 10%; } }
+    @media (min-width: 1366px) {
+      .page-grooming-tips .content .content-copy {
+        margin-right: 16%; } }
   .page-grooming-tips .content h1 {
     font-size: 22px;
     text-transform: uppercase;
@@ -525,22 +550,25 @@ li {
     position: absolute; }
     .page-grooming-tips .content-image img#splash {
       width: 260px;
-      left: -122px; }
+      left: -208px; }
       @media (min-width: 768px) {
         .page-grooming-tips .content-image img#splash {
-          width: 360px; } }
+          width: 360px;
+          left: -122px; } }
     .page-grooming-tips .content-image img#cream {
       width: 105px;
-      left: 3px; }
+      left: -48px; }
       @media (min-width: 768px) {
         .page-grooming-tips .content-image img#cream {
-          width: 205px; } }
+          width: 205px;
+          left: 3px; } }
     .page-grooming-tips .content-image img#razor {
       width: 95px;
-      left: 2px; }
+      left: -42px; }
       @media (min-width: 768px) {
         .page-grooming-tips .content-image img#razor {
-          width: 195px; } }
+          width: 195px;
+          left: 2px; } }
 .page-grooming-tips .content.expand {
   height: auto;
   min-height: 350px;
@@ -732,4 +760,7 @@ figure {
       color: #727376; }
     #carousel .slideshow h3 {
       font-size: 23px;
-      font-weight: 200; }
+      font-weight: 200;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 40px; }

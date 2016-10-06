@@ -1,4 +1,2 @@
-# inter-teams
-school teams projects
-
-REBECCA + MICHAEL
+## Interactive Teams
+### Robyn Steadham, Interactive Designer

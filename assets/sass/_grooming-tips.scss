@@ -20,13 +20,27 @@
 			    @include tablet {
 			    	width: 30%;
 			    }
-
+			    @include desktop {
+			    	position: relative;
+			    	padding: 100px;
+			    }
+				img {
+					@include desktop {
+					    position: absolute;
+					    left: 50%;
+					    transform: translateX(-50%);
+				    }
+				}
 			}
 			.copy {
 				float: left;
 				padding-left: 40px;
-				width: 65%;
-				padding-top: inherit;
+				width: 70%;
+				padding-top: 20px;
+				@include desktop {
+					padding-top: 70px;
+				}
+
 				h1 {
 					margin-bottom: 0;
 					font-size: 2.5em;
@@ -42,7 +56,7 @@
 
 				.logo-1 {
 					width: 28%;
-    				left: 8px;
+    				padding-left: 40px
 				}
 
 			}
@@ -62,10 +76,17 @@
 		display: block;
 
 		.content-copy {
-			width: 50%;
+			width: 80%;
 			float: right;
 			position: relative;
 			padding-right: 10px;
+			@include tablet {
+				width: 60%;
+				margin-right: 10%;
+			}
+			@include desktop {
+				margin-right: 16%;
+			}
 		}
 		h1{
 			font-size: 22px;
@@ -99,23 +120,26 @@
 
 			&#splash {
 			    width: 260px;
-			    left: -122px;
+			    left: -208px;
 			    @include tablet {
 			    	width: 360px;
+			    	left: -122px;
 			    }
 			}
 			&#cream {
 			    width: 105px;
-			    left: 3px;
+			    left: -48px;
 			    @include tablet {
 			    	width: 205px;
+			    	left: 3px;
 			    }
 			}
 			&#razor {
 			    width: 95px;
-			    left: 2px;
+			    left: -42px;
 			    @include tablet {
 			    	width: 195px;
+			    	left: 2px;
 			    }
 			}
 		}

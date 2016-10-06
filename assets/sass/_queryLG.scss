@@ -2,12 +2,20 @@
 	header {
 		width: percentage(303/1366);
 		height: 0;
-		padding-bottom: percentage(316/1366);
+	    padding-bottom: 23.041667% !important;
+	}
 
+	.header-container {
+		height: auto !important;
+	}
+
+	.caption {
+		height: 100%;
 	}
 
 	.group-1, .razors, .group-2{height: 0;}
 	.group-1{
+
 		width: percentage(1064/1366);
 		padding-bottom: percentage(316/1366);
 		.razor-A {
@@ -25,7 +33,7 @@
 			width: percentage(305/1063);
 			.caption {
 				padding-top: 22.5%;
-				padding-bottom: percentage(316/305);
+				height: 100%;
 			}
 		}
 
@@ -33,7 +41,7 @@
 			width: percentage(456/1063);
 			.caption {
 				// padding: 60px 0 0 63px;
-				padding-bottom: percentage(260/457);
+				height: 100%;
 			}
 		}
 	}
